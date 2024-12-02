@@ -1,13 +1,33 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+
+  color: white;
+  min-height: 100vh;
+  /* overflow: hidden; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: geist;
+}
+
+@font-face {
+  font-family: geist;
+  src: url(Geist-Regular.ttf);
+}
+
+@font-face {
+  font-family: geistBold;
+  src: url(/../public/Geist-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: geistMono;
+  src: url(/../public/GeistMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: geistMonoBold;
+  src: url(/../public/GeistMono-Bold.ttf);
+  font-weight: bold;
 }
