@@ -1,0 +1,28 @@
+.projects {
+    position: relative;
+    overflow-x: hidden;
+    height: calc(100vh - 64px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+  }
+  
+  .box {
+    background-color: #1b1b1b;
+    box-shadow: 0 0 5px #A9A9A9;
+    transition: all 0.3s ease-in-out;
+    width: 300px;
+  }

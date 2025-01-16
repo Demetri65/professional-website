@@ -8,7 +8,6 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-console.log(root, "hello");
 root.render(
   <BrowserRouter>
     <React.StrictMode>

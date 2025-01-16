@@ -1,0 +1,12 @@
+.about {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100vh - 64px);
+}
+
+.about-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

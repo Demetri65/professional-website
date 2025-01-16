@@ -1,0 +1,33 @@
+.svg-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+    pointer-events: none; /* Ignore interactions */
+  }
+  
+  .circle {
+    animation: morphSVG 90s infinite ease-in-out;
+  }
+  
+  @keyframes morphSVG {
+    0% {
+      rx: 50; /* Circle */
+      ry: 50;
+    }
+    25% {
+      rx: 75;
+      ry: 40;
+    }
+    50% {
+      rx: 40; /* Vertically stretched */
+      ry: 75;
+    }
+    75% {
+      rx: 65; /* Uneven stretch */
+      ry: 45;
+    }
+    100% {
+      rx: 50; /* Back to circle */
+      ry: 50;
+    }
+  }
